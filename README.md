@@ -17,21 +17,15 @@ first design the *Class*, or blueprint, of an object, and then create
 objects from that blueprint in order to use them.
 
 Imagine a set of instructions from IKEA as the *Class*, and your
-assembled Fthugënbøller bookcase as the *object*.
+assembled bookcase as the *object*.
 
 JavaScript uses prototypal OO. Instead of creating a nonfunctional class
 definition, we actually create the object, which is then used as a
 prototype to create other objects.
 
 In the real world, this would be like taking a bunch of laminated wood
-and assembling a Fthügënbøller, and then using that as your guide, or
-prototype, for creating other Fthügënbøllers, and Fthügënbøller-like objects.
-
-**//Flat-fact:** I'm regretting my choice to use impossible-to-type "Fthügënbøller" as my
-made up example, but I'm committed to the bit. Besides, we all know
-everything about IKEA furniture is a nightmare.
-
-![crib](http://i.giphy.com/ZvkHeRqClNgUE.gif)
+and assembling a bookcase, and then using that as your guide, or
+prototype, for creating other bookcases, and bookcase-like objects.
 
 So in both OO paradigms, we're defining the object, but in JavaScript,
 that definition is a functioning prototype that we can use to build
